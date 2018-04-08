@@ -29,7 +29,7 @@ Jag stylade inputfält och knappar.
 **Har du några inledande reflektioner kring me-sidan och dess struktur?**  
 Jag har svårt att inte börja styla så det blev det första. När jag ändrade till font-size 12px för p och la in en hr på sidan index och mer text under den hamnade footer-delen för högt upp och överlappade main-delen. Det gick att fixa med clear för footern. Men om jag tog bort font-sizen så försvann också problemet, alternativt tog bort hr och den extra texten. Jag sökte inte vidare varför font-size för p kunde påverka det så, men lite mysko var det. Jag fixade bara problemet.
 
-Jag tog samma style jag hade i design-kursen för figure och justerade den något. Vi använde ju LESS-kod i den kursen och det saknar jag (hittade inte vad som behövs för att kompilera LESS, hittade sidan https://dbwebb.se/kunskap/bygg-ett-tema-till-anax-flat med den bygger på något tidigare). Det blev mer komprimerad och tydligare kod. Nu behövde jag skriva om den till vanlig CSS. Jag la in bootstraps stylesheet också, stylade om den en del samt la egen bild och logga.
+Jag tog samma style jag hade i design-kursen för figure och justerade den något. Vi använde ju LESS-kod i den kursen och det saknar jag (hittade inte vad som behövs för att kompilera LESS, hittade sidan https://dbwebb.se/kunskap/bygg-ett-tema-till-anax-flat, men den bygger på något tidigare). Det blev mer komprimerad och tydligare kod. Nu behövde jag skriva om den till vanlig CSS. Jag la in bootstraps stylesheet också, stylade om den en del samt la egen bild och logga.
 
 Jag hade stora problem att få till så push till Git-repot skulle fungera. Efter mycket raderade och omstart av repo och nycklar på både datorn i Github så lyckades jag få till det. Inte heller VIM editorn fungerade som den skulle. Läste om andra på nätet med samma problem och med Windows/Cygwin.
 
@@ -39,6 +39,8 @@ Make check och make test fungerar inte, det var flera olika fel. Jag har skapat 
 *TIL är en akronym för “Today I Learned” vilket leksamt anspelar på att det finns alltid nya saker att lära sig, varje dag. Man brukar lyfta upp saker man lärt sig och där man kanske hajade till lite extra över dess nyttighet eller enkelhet, eller så var det bara en ny lärdom för dagen som man vill notera.*
 
 Det var nytt för mig att använda exceptions. Det var riktigt kul att få en bra känsla för hur det fungerar.
+
+**[Länk till min me-sida](http://www.student.bth.se/~anbp17/dbwebb-kurser/oophp/me/redovisa/htdocs)**
 
 
 
