@@ -20,6 +20,7 @@ namespace Anax\View;
     <link rel="icon" href="<?= $favicon ?>">
 <?php endif; ?>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <?php foreach ($stylesheets as $stylesheet) : ?>
     <link rel="stylesheet" type="text/css" href="<?= asset($stylesheet) ?>">
 <?php endforeach; ?>
@@ -29,7 +30,7 @@ namespace Anax\View;
 
 <!-- header -->
 <?php if (regionHasContent("header")) : ?>
-<div class="outer-wrap outer-wrap-header">
+<div class="outer-wrap outer-wrap-header container">
     <div class="inner-wrap inner-wrap-header">
         <div class="row">
             <div class="wrap-header">
